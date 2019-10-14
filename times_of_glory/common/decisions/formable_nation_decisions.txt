@@ -1,0 +1,179 @@
+seeds_of_conquest_category = {
+	
+	form_timurids = {
+
+		icon = decision_form_timurids
+
+		allowed = {
+			OR = {
+				original_tag = PER
+				original_tag = AFG
+			}
+		}
+
+		available = {
+			is_subject = no
+				controls_state = 675
+				controls_state = 676
+				controls_state = 291
+				controls_state = 680
+				controls_state = 350
+				controls_state = 349
+				controls_state = 353
+				controls_state = 352
+				controls_state = 231
+				controls_state = 230
+				controls_state = 229
+				controls_state = 444
+				controls_state = 445
+				controls_state = 440
+				controls_state = 441
+				controls_state = 787
+				controls_state = 442
+				controls_state = 585
+				controls_state = 584
+				controls_state = 587
+				controls_state = 405
+				controls_state = 742
+				controls_state = 732
+				controls_state = 589
+				controls_state = 404
+				controls_state = 419
+				controls_state = 421
+				controls_state = 420
+				controls_state = 417
+				controls_state = 413
+				controls_state = 266
+				controls_state = 418
+				controls_state = 411
+				controls_state = 412
+				controls_state = 416
+				controls_state = 414
+				controls_state = 410
+				controls_state = 415
+				controls_state = 267
+		}
+
+		visible = {
+			OR = {
+				original_tag = PER
+				original_tag = AFG
+			}
+			NOT = { has_global_flag = form_timurids_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = TIM_UNIFIED
+				419 = { add_core_of = ROOT }
+				421 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				417 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
+				266 = { add_core_of = ROOT }
+				418 = { add_core_of = ROOT }
+				411 = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
+				416 = { add_core_of = ROOT }
+				414 = { add_core_of = ROOT }
+				410 = { add_core_of = ROOT }
+				415 = { add_core_of = ROOT }
+				267 = { add_core_of = ROOT }
+				#new ones
+				675 = { add_core_of = ROOT }
+				674 = { add_core_of = ROOT }
+				219 = { add_core_of = ROOT }
+				680 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				231 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				441 = { add_core_of = ROOT }
+				787 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				585 = { add_core_of = ROOT }
+				584 = { add_core_of = ROOT }
+				587 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				752 = { add_core_of = ROOT }
+				732 = { add_core_of = ROOT }
+				589 = { add_core_of = ROOT }
+				404 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+			hidden_effect = {
+				news_event = { id = test = 6 }
+				set_global_flag = form_timurids_flag
+			}
+		}
+		
+	form_english_french_union = {
+
+		icon = GFX_decision_form_anglo-french
+
+		allowed = {
+			OR = {
+				original_tag = ENG
+			}
+		}
+
+		available = {
+			is_subject = no
+				controls_state = 675
+				controls_state = 676
+				controls_state = 291
+				controls_state = 680
+				controls_state = 350
+				controls_state = 349
+				controls_state = 353
+				controls_state = 352
+				controls_state = 231
+				controls_state = 230
+				controls_state = 229
+				controls_state = 444
+				controls_state = 445
+				controls_state = 440
+				controls_state = 441
+				controls_state = 787
+				controls_state = 442
+				controls_state = 585
+				controls_state = 584
+				controls_state = 587
+				controls_state = 405
+				controls_state = 742
+				controls_state = 732
+				controls_state = 589
+				controls_state = 404
+				controls_state = 419
+				controls_state = 421
+				controls_state = 420
+				controls_state = 417
+				controls_state = 413
+				controls_state = 266
+				controls_state = 418
+				controls_state = 411
+				controls_state = 412
+				controls_state = 416
+				controls_state = 414
+				controls_state = 410
+				controls_state = 415
+				controls_state = 267
+		}
+
+		visible = {
+			OR = {
+				original_tag = ENG
+			}
+			NOT = { has_global_flag = form_anglo-france_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG_france
+			hidden_effect = {
+				set_global_flag = form_anglo-france_flag
+			}
+		}

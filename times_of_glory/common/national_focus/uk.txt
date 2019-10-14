@@ -1,0 +1,36 @@
+focus_tree = {
+	id = british_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = national_restoration
+		available = 
+			}
+		bypass = {
+		}
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			}
+		}
+	}
+}

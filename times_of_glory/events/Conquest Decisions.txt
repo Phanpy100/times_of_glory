@@ -1,0 +1,35 @@
+﻿add_namespace = britain 
+
+# Tizard mission event for USA
+country_event = {
+	id = anglo_french
+	title = anglo_french.1.t
+	desc = anglo_french.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = anglo_french.1.a	#sounds good
+		ai_chance = { factor = 90 }
+		add_political_power = 100
+	}
+	
+	option = {
+		name = anglo_french.1.b	#no way 
+		ai_chance = { factor = 10 }
+		#add_opinion_modifier = { target = ENG modifier = tizard_refused }
+	}
+
+	option = {
+		name = anglo_french.1.c	#tech_sharing
+		trigger = { has_dlc = "Together for Victory"}
+		ai_chance = { factor = 90 }
+		add_political_power = -10
+	}
+	
+		option = {
+		name = anglo_french.1.d	#no way 
+		ai_chance = { factor = 40 }
+
+	}
+}

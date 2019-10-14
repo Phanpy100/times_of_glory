@@ -1,0 +1,4 @@
+seeds_of_conquest_category = {
+
+	icon = generic_formable_nations
+}

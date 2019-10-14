@@ -1,0 +1,4 @@
+TIM_UNIFIED = {
+    color = rgb { 149 34 49 }
+    color_ui = rgb { 149 34 49 }
+}
