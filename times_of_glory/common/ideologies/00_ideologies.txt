@@ -1,4 +1,6 @@
 ideologies = {
+
+	#For some reason the "take_states_cost_factor" doesn't work anymore. so i just hid them from the code
 	
 	communism = {
 		
@@ -172,7 +174,7 @@ radical_socialism = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
+			#take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -225,7 +227,7 @@ radical_socialism = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
+			#take_states_cost_factor = 0.25 
 			annex_cost_factor = 0.5
 		}
 		
@@ -281,7 +283,7 @@ radical_socialism = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
+			#take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		

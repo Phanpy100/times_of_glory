@@ -106,10 +106,11 @@ seeds_of_conquest_category = {
 				404 = { add_core_of = ROOT }
 				419 = { add_core_of = ROOT }
 			hidden_effect = {
-				news_event = { id = test = 6 }
+				#news_event = { id = test = 6 }
 				set_global_flag = form_timurids_flag
 			}
 		}
+	}
 		
 	form_english_french_union = {
 
@@ -177,3 +178,4 @@ seeds_of_conquest_category = {
 				set_global_flag = form_anglo-france_flag
 			}
 		}
+	}
