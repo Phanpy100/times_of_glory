@@ -1,4 +1,4 @@
-﻿name="Times of Glory"
+name="Times of Glory"
 path="mod/times_of_glory/"
 tags={
 	"National Focuses"
@@ -6,4 +6,6 @@ tags={
 	"Map"
 	"Gameplay"
 }
+replace_path="history/states"
 supported_version="1.9.*"
+version="2.1.3.7"

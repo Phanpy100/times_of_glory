@@ -15,7 +15,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social-democratic
+	ruling_party = conservative
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = yes
@@ -26,8 +26,8 @@ set_popularities = {
 	fascism = 1
 	democratic = 4
 	absolutism = 3
-	conservative = 45
-	social-democratic = 46
+	conservative = 46
+	social-democratic = 45
 }
 
 create_faction = treaty_of_budapest
@@ -37,11 +37,11 @@ add_to_faction = SGC
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	name = "Karl Buresch"
+	desc = "POLITICS_KARL_BURESCH_DESC"
+	picture = "Portrait_Austria_Karl_Buresch.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservatism
 	traits = {
 		#
 	}
