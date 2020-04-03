@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "ENG"
 		default = yes
 		
 		"ENG"={
@@ -30,9 +30,59 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = social-democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"MAN"={
+			history = "MAN_GATHERING_STORM_DESC"
+			ideology = absolutism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
 
-
-		# minors ####
+		#minors ####
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -42,18 +92,60 @@ bookmarks = {
 			focuses = {
 			}
 		}
-
-		"SGC"={
+		"ITA"={
 			minor = yes
-			history = "SGC_GATHERING_STORM_DESC"
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = synarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SRI"={
+			minor = yes
+			history = "SRI_GATHERING_STORM_DESC"
+			ideology = syndicalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"MEX"={
+			minor = yes
+			history = "MEX_GATHERING_STORM_DESC"
+			ideology = synarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_GATHERING_STORM_DESC"
 			ideology = conservative
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		
-		
+		"PER"={
+			minor = yes
+			history = "PER_GATHERING_STORM_DESC"
+			ideology = absolutism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		#"BUL"={
+		#	minor = yes
+		#	history = "BUL_GATHERING_STORM_DESC"
+		#	ideology = absolutism
+		#	ideas = {
+		#	}
+		#	focuses = {
+		#	}
+		#}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

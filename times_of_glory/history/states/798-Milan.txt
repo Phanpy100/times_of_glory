@@ -1,0 +1,29 @@
+state={
+	id=798
+	name="STATE_798"
+	history={
+		owner = VNC
+		victory_points = {
+			3780 15 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+			arms_factory = 5
+			925 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = VNC
+		add_claim_by = SRI
+		add_claim_by = ITA
+
+	}
+
+	provinces={
+		3780 607 9584
+	}
+	manpower=3597704
+	buildings_max_level_factor=1.000
+	state_category = city
+}

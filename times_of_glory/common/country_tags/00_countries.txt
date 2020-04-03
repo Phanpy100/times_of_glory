@@ -199,14 +199,11 @@ CAT = "countries/Catalonia.txt"
 NAV = "countries/Navarra.txt"
 GLC = "countries/Galicia.txt"
 ADU = "countries/Andalusia.txt"
-
-
-
-
-
 SAX = "countries/Saxony.txt"
 SGC = "countries/SGC.txt"
 WPH = "countries/Westphalia.txt"
 RHI = "countries/Rhineland.txt"
 HAN = "countries/Hannover.txt"
 HES = "countries/Hesse.txt"
+SRI = "countries/SSRI.txt"
+VNC = "countries/Venice.txt"

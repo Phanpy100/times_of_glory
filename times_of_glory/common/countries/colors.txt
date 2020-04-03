@@ -9,8 +9,8 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 57 104 49 }
+	color_ui = rgb { 57 104 49   }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -58,8 +58,8 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 111 179 188 }
+	color_ui = rgb { 111 179 188 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
@@ -182,8 +182,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 232 26 64 }
+	color_ui = rgb { 232 26 64 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -558,4 +558,12 @@ HAN = {
 HES = {
 	color = rgb { 30 103 171 }
 	color_ui = rgb { 30 103 171 }
+}
+VNC = {
+	color = rgb { 56 167 158 }
+	color_ui = rgb { 56 167 158 }
+}
+SRI = {
+	color = rgb { 136 47 47 }
+	color_ui = rgb { 136 47 47 }
 }

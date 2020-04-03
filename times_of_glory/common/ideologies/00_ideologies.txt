@@ -5,14 +5,17 @@ ideologies = {
 	communism = {
 		
 		types = {
-		
-			marxism = {
-			}
 			
 			leninism = {
 			}
 			
 			trotskyism = {
+			}
+			
+			left_national_syndicalism = {
+			}
+			
+			black_socialism = {
 			}
 		}
 		
@@ -55,6 +58,9 @@ syndicalism = {
 			}
 			
 			electoral_socialism = {
+			}
+			
+			marxism = {
 			}
 		}
 		
@@ -302,6 +308,9 @@ radical_socialism = {
 			
 			moderatism = {
 			}
+			
+			junta = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -404,6 +413,9 @@ absolutism = {
 			
 			fascism_ideology = {
 			}
+			
+			corperatism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -443,6 +455,9 @@ synarchism = {
 			}
 			
 			rexism = {
+			}
+			
+			integralism = {
 			}
 		}
 		
