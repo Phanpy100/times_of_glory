@@ -1,0 +1,27 @@
+state={
+	id=800
+	name="STATE_800"
+	resources={
+		chromium=20.000 #added due to portugal setup
+	}
+	history={
+		owner = LOU
+		victory_points = {
+			12893 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = LOU
+
+	}
+
+	provinces={
+		12624 9908 12893 3972 10867 12684 10642 2102 2055
+	}
+	manpower=80674
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -567,3 +567,7 @@ SRI = {
 	color = rgb { 136 47 47 }
 	color_ui = rgb { 136 47 47 }
 }
+LOU = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}

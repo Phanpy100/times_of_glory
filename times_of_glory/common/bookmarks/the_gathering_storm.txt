@@ -137,6 +137,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"HOL"={
+			minor = yes
+			history = "PER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		#"BUL"={
 		#	minor = yes
 		#	history = "BUL_GATHERING_STORM_DESC"

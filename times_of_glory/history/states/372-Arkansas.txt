@@ -12,19 +12,18 @@ state={
 
 
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = USA
+		add_core_of = LOU
 		victory_points = {
-			12489 1 
+			12401 4 
 		}
-
 	}
 
 	provinces={
-		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+		10355 1503 1528 1559 1643 4507 4522 7555 7599 12313 12401 
 	}
 }

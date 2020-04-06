@@ -6,15 +6,18 @@ state={
 	state_category = rural
 	
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = USA
+		add_core_of = LOU
+		victory_points = {
+			1815 1 
+		}
 	}
 
 	provinces={
-		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+		1815 4610 4723 4794 4820 7814 10640 10711 12561 12651 
 	}
 	
 }

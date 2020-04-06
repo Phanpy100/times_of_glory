@@ -1,0 +1,35 @@
+
+state={
+	id=799
+	name="STATE_799"
+	manpower = 5824712
+	
+	
+	state_category = metropolis
+	
+	resources={
+	}
+
+
+	history={
+		owner = LOU
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 9
+		10337 = {
+			naval_base = 3
+			}
+		}
+		victory_points = {
+			10337 10
+		}
+		victory_points = {
+			3960 10 
+		}
+		add_core_of = LOU
+	}
+
+	provinces={
+		12410 12341 5022 7836 12875 12301 9773 10337 10504 10861 7981 12848 3875 5085 9920 2082 3960 10778 9829 5001 4577 805 12486 7628 1500 1915 6968
+	}
+}

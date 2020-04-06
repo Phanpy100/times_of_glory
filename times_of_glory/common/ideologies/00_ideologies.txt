@@ -146,6 +146,12 @@ radical_socialism = {
 		
 			socialism = {
 			}
+			
+			progressivism = {
+			}
+			
+			progressive_longism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -310,6 +316,9 @@ radical_socialism = {
 			}
 			
 			junta = {
+			}
+			
+			longism = {
 			}
 		}
 

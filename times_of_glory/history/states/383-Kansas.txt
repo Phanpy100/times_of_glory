@@ -10,28 +10,28 @@ state={
 	state_category = city
 
 	history={
-		owner = USA
+		owner = LOU
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = LOU
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
 			}
 		}
 		victory_points = {
-			4740 3
+			7834 1
 		}
 		victory_points = {
-			7834 1
+			1753 2
 		}
 	}
 
 	provinces={
-		1352 1753 4586 4740 4757 4811 4814 4871 7834 7892 9802 10340 10532 12024 12513 
+		1352 1753 4586 4757 4811 4814 4871 7834 7892 9802 10532 12024 12513 1806 2043 4830 10606 10676 3708 
 	}
 	
 }
